@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    padding-bottom: 1em;
+}
+#parent {
+	display: flex;
+	width: 50%;
+	height: 50%;
+	align-self: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#hours{
+    display:block;
+}
+#minutes{
+    display:block;
+}
+#btn{
+    border: none;
+    color: yellow;
+    background-color: black;
+}
+input[type=text]{
+        width: 30%;
+        border-bottom: 2px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: .4em;
+        margin-bottom: 1em;
+        outline: none;
+}

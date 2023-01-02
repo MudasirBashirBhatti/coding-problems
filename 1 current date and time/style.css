@@ -1,0 +1,40 @@
+#container{
+    width: 450px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 10px solid rgb(0, 238, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.full{
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 1.5rem;
+}
+
+#currentTime{
+    display: inline-block;
+
+}
+
+#currentDate{
+    display: inline-block;
+}
+
+#Day{
+    display: inline-block;
+}
+
+h1{
+    color: rgb(0, 255, 234);
+    text-decoration:underline;
+    text-align: center;
+}

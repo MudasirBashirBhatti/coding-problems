@@ -1,0 +1,7 @@
+div{
+    display: inline-block;
+}
+button{
+    display: block;
+    margin-top: 20px;
+}
