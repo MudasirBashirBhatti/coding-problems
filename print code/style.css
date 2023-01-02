@@ -1,0 +1,11 @@
+img{
+    width: 30px;
+    padding: 1em 2em;
+}
+#my{
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+    width: 50%;
+    box-shadow: 1px 4px 5px rgb(202, 202, 202);
+    margin: 5px;
+}
